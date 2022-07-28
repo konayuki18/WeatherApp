@@ -4,6 +4,7 @@ import 'package:weather_app/routes/router.gr.dart';
 
 void main() {
   runApp(ProviderScope(child: MyApp()));
+  print('hello');
 }
 
 class MyApp extends StatelessWidget {
